@@ -1,6 +1,10 @@
 # EventSystem Patch
 ## 소개
-싱글턴 패턴에 대하여 자동 기능이 탑재된 패키지입니다.
+UI의 Event System을 사용하면서 Input System을 사용한다면 유니티는 Error 경고를 보여줍니다.  
+이는 기존에 사용되던 Standalone input module는 Input Manager를 기반으로 동작했기 때문입니다.  
+Input System은 더이상 Input Manager를 사용하지 않기 때문에 에러를 발생시키며 유니티가 제공하는 Input System UI Input Module을 사용해야합니다.  
+안타깝게도 유니티는 자동적으로 Standalone input module 컴포넌트를 Input System용 컴포넌트로 변환해주지 않습니다.  
+이 플러그인을 사용하면 자동적으로 Standalone input module을 감지하여 Input System UI Input Module로 변환해줍니다.
 
 ## 설치
 ### Git UPM
