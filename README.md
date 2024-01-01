@@ -1,4 +1,4 @@
-# EventSystem Patch
+# Event System Patch
 ## 소개
 UI의 Event System을 사용하면서 Input System을 사용한다면 유니티는 Error 경고를 보여줍니다.  
 이는 기존에 사용되던 Standalone input module는 Input Manager를 기반으로 동작했기 때문입니다.  
