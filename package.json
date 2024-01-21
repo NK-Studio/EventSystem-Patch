@@ -4,6 +4,9 @@
     "version": "1.0.0",
     "unity": "2020.1",
     "description": "Enables the Event System to interact with the Input System, allowing the use of the Input System UI Input Module.",
+    "author": {
+    "name": "NK Studio"
+    },
     "dependencies": {
         "com.unity.ugui": "1.0.0",
         "com.unity.inputsystem": "1.0.0"
